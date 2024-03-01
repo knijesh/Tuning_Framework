@@ -88,7 +88,7 @@ class Datagenerator:
     def _gen_driver(self):
         total = []
         texts, metadata = self.load_docs_pdf_MAS()
-        texts = [each.replace("\n", ' ') for each in texts[2:4]]
+        texts = [each.replace("\n", ' ') for each in texts]
         try:
             for i, item in enumerate(texts):
                 import json
