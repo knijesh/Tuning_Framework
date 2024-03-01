@@ -143,6 +143,6 @@ similarities and differences can be assessed according to certain criteria or ch
 5. The Queries and Answers must be formatted in a JSON format.\
 6. Don't add opinions to your answers.\
 7. Don't create categories . Put all complex and comparitive queries together."
-    generator = Datagenerator(apikey ="pak-BNBWq10ySzys910Q6QBC4xBeBUJjY6rqIaLCgXxtmWk",filenames=["/Users/nijesh/Downloads/comms.pdf"],prompt=prompt,)
+    generator = Datagenerator(apikey ="*******",filenames=["/Users/nijesh/Downloads/comms.pdf"],prompt=prompt,)
     generator.driver()
 
